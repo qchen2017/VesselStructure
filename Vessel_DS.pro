@@ -15,4 +15,13 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    graphvertextype.cpp \
+    swcnodetype.cpp \
+    vesselblock.cpp
+
+HEADERS += \
+    graphvertextype.h \
+    common.h \
+    swcnodetype.h \
+    vesselblock.h
